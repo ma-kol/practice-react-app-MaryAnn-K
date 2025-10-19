@@ -1,0 +1,32 @@
+/*
+1. Update App.css
+○ Add basic styles to center the content, add spacing, and style each
+card. For example:
+■ Add a border and padding to each profile card.
+■ Use flexbox or grid for alignment.
+
+*/
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.profile-card {
+  border: 1px solid purple;
+  padding: 10px;
+}
+
+
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
